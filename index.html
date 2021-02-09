@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <link rel="shortcut icon" href="#" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <div class="movie-container">
+           <label for=""> Pickup a Movie </label>
+           <select name="movie" id="movie">
+               <option value="8"> The Avater ($8)</option> 
+               <option value="9"> The Titanic ($9)</option> 
+               <option value="10"> The King ($10)</option>
+               <option value="12"> The Superman ($12)</option>
+           </select>
+       </div>
+       <ul class="showcase">
+           <li>
+               <div class="seat"> </div>
+               <small> N/A</small>
+           </li>
+           <li>
+                <div class="seat selected"> </div>
+                <small> Selected </small>
+            </li>
+            <li>
+                <div class="seat occupied"> </div>
+                <small> Occupied </small>
+            </li>
+       </ul>
+
+       <div class="container">
+           <div class="screen"></div>
+           <div class="row">
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat"></div>
+               <div class="seat occupied"></div>
+               <div class="seat"></div>
+               <div class="seat occupied"></div>
+               <div class="seat"></div>
+           </div>
+
+           <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat occupied"></div>
+            <div class="seat occupied"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+       </div>
+       <p class="text"> you have selected <span id="count"> 0 </span> and the total price is <span id="total"> 0</span></p>
+        
+        <script src="script.js" async defer></script>
+    </body>
+</html>
